@@ -1,19 +1,19 @@
 window.addEventListener('DOMContentLoaded', function(e) {
 
-  //Cria o elemento button
+  //# Create the button element.
   var btn = document.createElement('button');
 
-  //Coloca position absolute, pra n precisar se preocupar com nada
+  //# Put css style to button.
   btn.style.position = "absolute";
   btn.style.top = "0";
 
-  //Coloca um texto pra conseguirmos achar o botão
+  //# Put a value into button.
   btn.appendChild(document.createTextNode('AutoPut'));
 
-  //Coloca o botão no body para ser usado
+  //# Append the button in body.
   document.body.appendChild(btn);
 
-  //Declara o evento, para que ele seja acionado quando clicar
+  //# When button is clicked insert 'Test' value.
   btn.addEventListener('click', function(e) {
     var inputs = document.querySelectorAll('input[type="text"]');
     var i = 0;
