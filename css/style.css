@@ -1,0 +1,76 @@
+*,*:before, *:after{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    background: url(../img/bg.jpg);
+    background-size: cover;
+    font-size: 100%;
+    font-family: 'Roboto', Helvetica, Ubuntu, Verdana, sans-serif;
+}
+
+.header{
+    background: #222;
+    text-align: center;
+    max-height: 50px;
+    line-height: 50px;
+    color: white;
+    font-size: 1.2em;
+}
+
+.menu{
+}
+    .menu li{
+        display: inline-block;
+        margin: 0 5px;
+    }
+    
+    .title {
+        font-size: 1.5em;
+    }
+
+    .menu a{
+        color: inherit;
+    }
+
+.ribbon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+}
+
+fieldset{
+    background: #f0f0f0;
+    border: 0;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 0 0 5px 5px;
+}
+
+.fields, .select, .textarea{
+    width: 100%;
+    font-family: inherit;
+    font-size: 1em;
+    padding: 3px;
+    border: 1px solid #c8bfbf;
+    margin: 5px 0;
+    border-radius: 3px;
+    color: #222;
+}
+
+.check{
+    width: 20px;
+    height: 20px;
+    margin: 5px 0;
+}
