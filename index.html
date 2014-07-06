@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Autoput</title>
+
+  <meta name="description" content="Autoput simple to fill inputs">
+  <meta name="author" content="Filipe Linhares @ofilipelinhares">
+
+  <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  <header class="header">
+    <a class="ribbon" href="https://github.com/filipelinhares/autoput">
+      <img src="img/ribbon.png" alt="Fork me on GitHub" >
+    </a>
+
+    <ul class="menu">
+      <li class="title">Autoput</li>
+      <li><a href="">Docs</a></li>
+      <li><a href="">MIT</a></li>
+    </ul>
+  </header>
+
+  <fieldset>
+    <input class="fields text" type="text" placeholder="Type Text">
+    <input class="fields email" type="email" placeholder="Type Email">
+    <input class="fields date" type="date" placeholder="Type Date">
+    <input class="fields datetime" type="datetime-local" placeholder="Type Datetime">
+    <input class="fields week" type="week" placeholder="Type Week">
+    <input class="fields month" type="month" placeholder="Type Month">
+    <input class="fields tel" type="tel" placeholder="Type Tel">
+    <input class="fields search" type="search" placeholder="Type Search">
+    <input class="fields url" type="url" placeholder="Type URL">
+    <input class="fields number" type="number" placeholder="Type Number">
+    <input class="check radio" name="radio-box" type="radio">
+    <input class="check radio" name="radio-box" type="radio">
+    <input class="check radio-check" name="radio-box" type="radio">
+    <input class="check checkbox" type="checkbox">
+    <input class="check checkbox" type="checkbox">
+    <input class="check checkbox" type="checkbox">
+    <input type="range">
+    <select class="select">
+      <option value="">Select box</option>
+      <option value="Value option2">Value2</option>
+      <option value="Value option3">Value3</option>
+      <option value="Value option4">Value4</option>
+      <option value="Value option5">Value5</option>
+    </select>
+    <textarea class="textarea" placeholder="Textarea"></textarea>
+  </fieldset>
+
+  <script src="js/autoput.min.js"></script>
+  <script>
+    (function() {
+      Autoput.on();
+    })()
+  </script>
+</body>
+</html>
