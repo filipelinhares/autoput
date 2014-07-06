@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Autoput</title>
+  </head>
+  <body>
+    <h1>Autoput</h1>
+    <fieldset>
+      <input class="fields text" type="text" placeholder="Type Text">
+      <input class="fields email" type="email" placeholder="Type Email">
+      <input class="fields date" type="date" placeholder="Type Date">
+      <input class="fields datetime" type="datetime-local" placeholder="Type Datetime">
+      <input class="fields week" type="week" placeholder="Type Week">
+      <input class="fields month" type="month" placeholder="Type Month">
+      <input class="fields tel" type="tel" placeholder="Type Tel">
+      <input class="fields search" type="search" placeholder="Type Search">
+      <input class="fields url" type="url" placeholder="Type URL">
+      <input class="fields number" type="number" placeholder="Type Number">
+      <input class="check radio" name="radio-box" type="radio">
+      <input class="check radio" name="radio-box" type="radio">
+      <input class="check radio-check" name="radio-box" type="radio">
+      <input class="check checkbox" type="checkbox">
+      <input class="check checkbox" type="checkbox">
+      <input class="check checkbox" type="checkbox">
+      <input type="range">
+      <select class="select">
+        <option value="">Select box</option>
+        <option value="Value option2">Value2</option>
+        <option value="Value option3">Value3</option>
+        <option value="Value option4">Value4</option>
+        <option value="Value option5">Value5</option>
+      </select>
+      <textarea class="textarea"></textarea>
+    </fieldset>
+    <script src="../src/autoput.js"></script>
+    <script>
+      Autoput.customOptions({
+        text: 'Other text',
+        email: 'other@email.com',
+        date: '2000-04-04',
+        datetime: '2000-10-16T12:12',
+        week: '2000-W12',
+        month: '2000-11',
+        tel: '(1) 555-111-333',
+        baseNumber: 100,
+        url: 'http://www.webplatform.org',
+        search: 'Found Unicorns OMG!',
+        radio: false,
+        checkbox: false,
+        range: 0.5
+      });
+      Autoput.on();
+    </script>
+  </body>
+</html>

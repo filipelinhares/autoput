@@ -1,0 +1,35 @@
+{
+  "name": "Autoput",
+  "version": "0.1.0",
+  "description": "A simple tool to fill inputs",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/filipelinhares/autoput.git"
+  },
+  "author": "Filipe Linhares",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/filipelinhares/autoput/issues"
+  },
+  "homepage": "https://github.com/filipelinhares/autoput",
+  "devDependencies": {
+    "gulp": "^3.8.5",
+    "dalekjs": "0.0.8",
+    "dalek-reporter-html": "0.0.3",
+    "dalek-browser-chrome": "0.0.10",
+    "gulp-dalek": "0.0.1",
+    "gulp-jshint": "^1.6.4",
+    "jshint-stylish": "^0.2.0",
+    "gulp-strip-code": "^0.1.2",
+    "gulp-uglify": "^0.3.1",
+    "gulp-rename": "^1.2.0",
+    "gulp-connect": "^2.0.5"
+  }
+}
