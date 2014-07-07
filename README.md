@@ -33,6 +33,26 @@ After load the `autoput.js` you can defined an value with each option.
 </script>
 ```
 
+## Custom options
+
+```
+Autoput.custom({
+  text: string
+  email: string
+  date: string
+  datetime: string
+  week: string
+  month: string
+  tel: string
+  baseNumber: integer
+  url: string
+  search: string
+  radio: bol
+  checkbox: bol
+  range: float
+});
+```
+
 #### Atenction
 
 The values of `date`, `week` and others like this, you will need follow the pattern:
@@ -47,26 +67,18 @@ The values of `date`, `week` and others like this, you will need follow the patt
 You'll need:
 [Node](http://nodejs.org/) - [NPM](https://www.npmjs.org/) - [Gulp](http://gulpjs.com/) - [Dalekjs](http://dalekjs.com/)
 
-Fork the project.
-
-`git clone `
-
-Install all dependencies
-
+`git clone git@github.com:filipelinhares/autoput.git`  
 `npm install`
 
 #### Gulp commands
 
-`gulp watch`
-
+`gulp watch`  
 It's create a server in `localhost:8081`.
 
-`gulp`
-
+`gulp`  
 Minify, Jshint and put the result on `dist/`.
 
 #### Tests
-
 All tests resulst are in `report`.
 
 ## License
