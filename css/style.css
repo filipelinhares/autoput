@@ -31,14 +31,24 @@ body{
     .menu li{
         display: inline-block;
         margin: 0 5px;
+        position: relative;
     }
-    
-    .title {
+
+    .title{
         font-size: 1.5em;
     }
 
     .menu a{
         color: inherit;
+    }
+
+    .github{
+      top: 13px;
+    }
+
+    .twitter{
+      top: 3px;
+      left: -50px;
     }
 
 .ribbon{
